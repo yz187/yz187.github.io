@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>主页</title>
+<link rel="stylesheet" href="demo1.css">
+	<link rel="stylesheet" href="swiper.css">
+<style type="text/css">
+#header{
+	float: left;
+	height: 300px;
+	width: 1300px;
+}
+#main{
+	float: left;
+	height: 880px;
+	width: 1300px;
+	margin-top: 15px;
+	background-image: url(%E5%9B%BE%E7%89%87/%E4%B8%BB%E9%A1%B5/2.jpg);
+}
+#main_left{
+	float: left;
+	height: 500px;
+	width: 180px;
+	margin-left: 155px;
+	margin-top:10px;
+}
+#main_left1{
+	float: left;
+	height: 250px;
+	width: 180px;
+}
+#main_left_top{
+	float: left;
+	height: 80px;
+	width: 180px;
+	background-image: url(%E5%9B%BE%E7%89%87/sub_main_left_top_bg.jpg);
+}
+#main_left_top h3{
+	font-family: "黑体";
+	font-size: 20px;
+	color: #39F;
+	text-align: center;
+	height: 30px;
+	padding-top: 25px;
+}
+#main_left_top h3 span{
+	font-size: 18px;
+	margin-left: 5px;
+	color: #666;
+}
+#main_left_bottom{
+	height: 200px;
+	width: 180px;
+	background-image: url(%E5%9B%BE%E7%89%87/sub_main_left_bottom_bg.jpg);
+}
+#main_left_bottom ul{
+	line-height: 30px;
+	padding-top: 0px;
+	padding-right: 25px;
+}
+#main_left_bottom ul li{
+	text-align: center;
+	list-style-type: none;
+	border-bottom:1px dashed #ccc;
+}
+#main_left_bottom ul a:hover{
+	color: #39F;
+	text-decoration:none;
+}
+#main_left_behind{
+	height: 25px;
+	width: 180px;
+	background-image: url(%E5%9B%BE%E7%89%87/sub_main_left_behind_bg.jpg);
+	margin: 0px;
+}
+#box1{
+	float: left;
+	height: 40px;
+	width: 120px;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+#main_left_xia{
+	float: left;
+	height:350px;
+	width: 180px;
+}
+#box2{
+	float: left;
+	height: 340px;
+	width: 180px;
+}
+#main_mid{
+	float: left;
+	height: 400px;
+	width: 530px;
+	margin-left: 40px;
+}
+#main_mid_top{
+	margin: 10px;
+	float: left;
+	height: 380px;
+	width: 510px;
+}
+#main_mid_mid{
+	float: left;
+	height: 240px;
+	width: 530px;
+}
+#main_mid_mid_1{
+	float: left;
+	height: 200px;
+	width: 500px;
+	margin-left:10px;
+}
+#box3{
+	float: left;
+	height: 190px;
+	width: 150px;
+	margin-left:15px;
+}
+#box3:hover{
+	box-shadow:0 0 5px 5px #999;
+}
+#main_right{
+	float: left;
+	height: 880px;
+	width: 180px;
+	margin-left: 40px;
+	margin-top:10px;
+}
+#main_right_top{
+	float: left;
+	height: 250px;
+	width: 180px;
+	background-color: #39F;
+}
+#main_right_mid{
+	float: left;
+	height: 630px;
+	width: 180px;
+}
+#box4{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left:15px;
+	margin-top:10px; 
+}
+#box4:hover{
+	box-shadow:0 0 5px 5px #F60;
+}
+#box5{
+	float: left;
+	height: 20px;
+	width: 100px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+#box8{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left:25px;
+	margin-top:10px; 
+}
+#box8:hover{
+	box-shadow:0 0 5px 5px #999;
+}
+#nav{
+	float: left;
+	height: 230px;
+	width: 610px;
+	margin-top: -240px;
+	margin-left: 160px;
+}
+#nav1{
+	float: left;
+	height: 160px;
+	width: 750px;
+	border: 5px solid #39F;
+}
+#nav1:hover{
+	box-shadow:0 0 5px 5px #06F;
+}
+#box6{
+	float: left;
+	height: 30px;
+	width: 120px;
+	margin-top: 10px;
+	margin-left: 25px;
+	background-image: url(%E5%9B%BE%E7%89%87/lammu.jpg);
+	margin-bottom: 10px;
+}
+
+    .swiper-container {
+	width: 510px;
+	height:370px;
+	float: left;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+#footer{
+	background-color:#4183e4;
+	height: 115px;
+	width: 1300px;
+	float: left;
+	margin-top: 5px;
+	color: #FFF;
+}
+#footerleft{
+	float: left;
+	height: 110px;
+	width: 1100px;
+}
+#footer1{
+	float: left;
+	height: 80px;
+	width: 80px;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+#box9{
+	margin: 10px;
+	float: left;
+	height: 30px;
+	width: 160px;
+}
+#box10{
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+#box11{
+	float: left;
+	height: 20px;
+	width: 100px;
+	margin-left:20px;
+	margin-top:6px;
+}
+#box12{
+	float: left;
+	height: 40px;
+	width: 160px;
+	margin-left:10px;
+}
+#box13{
+	float: left;
+	height: 40px;
+	width: 160px;
+	margin-left:10px;
+}
+#box14{
+	float: left;
+	height: 40px;
+	width: 120px;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+</style>
+</head>
+
+<body>
+<div id="header"><img src="图片/QQ图片20171119145708.jpg"></div>
+<div id="main">
+<div id="main_left">
+<div id="main_left1">
+<div id="main_left_top">
+<div id="box1"><font size="+2"><div style="text-shadow:5px 2px 6px #F90">快速导航</div></font></div>
+</div>
+<div id="main_left_bottom">
+<ul>
+<li><a href="#">首页</a></li>
+<li><a href="北京.html">北京</a></li>
+<li><a href="上海.html">上海</a></li>
+<li><a href="西安.html">西安</a></li>
+</ul>
+</div>
+<div id="main_left_behind"></div></div>
+<div id="main_left_xia"><div id="box1"><font size="+2"><div style="text-shadow:5px 2px 8px #F90">联系我们</div></font></div><div id="box2">
+<div id="box9"><div id="box10"><img src="图片/QQ图片20171127160432.gif" width="30" height="30" /></div><div id="box11"><font size="+1">2905561717</font></div></div>
+<div id="box9"><div id="box10"><img src="图片/1.gif" width="30" height="30" /></div><div id="box11"><font size="+1">187****0708</font></div></div>
+<div id="box9"><div id="box10"><img src="图片/99g58PICBc3.jpg" width="30" height="30" /></div><div id="box11"><font size="+1">爱已搁浅</font></div></div>
+<div id="box12"><div id="box1"><font size="+2"><div style="text-shadow:5px 2px 8px #F90">留言簿</div></font></div></div>
+<div id="box13">
+<form>
+<p><textarea name="think" cols="23" rows="5"></textarea></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="提交" />
+</form></div>
+</div></div>
+</div>
+<div id="main_mid">
+<div id="main_mid_top">
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="图片/主页/timg.jpg" width="510" height="370" /></div>
+            <div class="swiper-slide"><img src="图片/主页/55b6ba04b644f82259a4d587d6efe0f9_t01da3acc083739529b.jpg" width="510" height="370" /></div>
+            <div class="swiper-slide"><img src="图片/主页/41C7082E2E9584CBADBE96D264F049B5.jpg" width="510" height="370" /></div>
+        </div>
+    </div>
+</div>
+<div id="main_mid_mid">
+<div id="box6"><font size="+2"><div style="text-shadow:5px 2px 6px #000">美景寻踪</div></font></div>
+<div id="main_mid_mid_1">
+<div id="box3"><a href="天安门.html"><img src="图片/主页/yiananmen.JPG" width="150" height="190" /></a></div>
+<div id="box3"><a href="迪士尼.html"><img src="图片/主页/dishini.jpg" width="150" height="190" /></a></div>
+<div id="box3"><a href="秦始皇兵马俑.html"><img src="图片/主页/bingmayong.jpeg" width="150" height="190" /></a></div>
+</div>
+</div>
+</div>
+<div id="main_right">
+<div id="main_right_top">
+<div id="box14"><font size="+2"><div style="text-shadow:5px 2px 6px #000">天气查询</div></font></div><br/><br/><br/><hr/><div id="box14"><font color="#FFFFFF"><div style="text-shadow:5px 2px 6px #000">北京<br/>晴  -3℃-9℃<br/><br/>西安<br/>阴  1℃-9℃<br/><br/>上海<br/>小雨  8℃-13℃</div></font></div>
+</div>
+<div id="main_right_mid"><div id="box6"><font size="+2"><div style="text-shadow:5px 2px 6px #000">小吃推荐</div></font></div>
+<div id="box4"><a href="北京美食.html"><img src="图片/主页/kaoya1.jpg"  height="150" width="150"/></div><div id="box5"><div style="text-shadow:5px 2px 6px #F00">北京烤鸭</div></div>
+<div id="box4"><a href="上海美食.html"><img src="图片/主页/jianbao.jpg"  height="150" width="150"/></div><div id="box5"><div style="text-shadow:5px 2px 6px #F00">生煎包</div></div>
+<div id="box4"><a href="西安美食.html"><img src="图片/主页/liangpi.jpg"  height="150" width="150"/></div><div id="box5"><div style="text-shadow:5px 2px 6px #F00">陕西凉皮</div></div>
+</div>
+</div>
+<div id="nav">
+<div id="box6"><font size="+2"><div style="text-shadow:5px 2px 6px #000">友情链接</div></div>
+<div id="nav1">
+<div id="box8"><a href="https://www.qunar.com"><img src="图片/主页/qunaer.jpg"  height="150" width="150"/></a></div>
+<div id="box8"><a href="http://www.tuniu.com/"><img src="图片/主页/tuniu.jpg"  height="150" width="150"/></a></div>
+<div id="box8"><a href="https://www.ly.com/"><img src="图片/主页/tongcheng.jpg"  height="150" width="150"/></a></div>
+<div id="box8"><a href="http://www.mafengwo.cn/"><img src="图片/主页/mafengwo.jpg"  height="150" width="150"/></a></div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footerleft">
+<p align="center"><font size="+2">版权所有：张扬个性工作室</font></p>
+<p align="center"><font size="+2">地址：晋中市省高校园区</font></p>
+</div>
+<div id="footer1"><img src="图片/37706935F9FC88887E1AE035C32D248F.jpg" width="80" height="80" /></div>
+</div>
+</body>
+<!-- Swiper JS -->
+    <script src="swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+     var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+</html>
