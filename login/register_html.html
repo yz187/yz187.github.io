@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎注册</title>
+	<link rel="stylesheet" href="mycss.css">
+	<script>
+	function checkForm(){
+		var username=document.getElementById("name").value;
+		var email=document.getElementById("mail").value;
+		var pw1=document.getElementById("pw1").value;
+		var pw2=document.getElementById("pw2").value;
+		if(username.length==0)
+		{
+			alert('姓名不能为空！');
+			return false;
+		}
+		if(email.length==0)
+		{
+			alert('邮箱不能为空！');
+			return false;
+		}
+		if(pw1.length==0 || pw2.length==0)
+		{
+			alert('密码不能为空！');
+			return false;
+		}
+		if(pw1!==pw2)
+		{
+			alert('两次输入密码不一致！');
+			return false;
+		}
+		return true;
+	}
+	</script>
+</head>
+<body>
+	<form method="post" action="mysqli_register.php" onsubmit="return checkForm()">
+	<table class="reg">
+	<tr><td class="title" colspan="2">欢迎注册新用户</td></tr>
+	<tr><th>用户名：</th><td><input type="text" name="username" id="name" /></td></tr>
+	<tr><th>邮箱：</th><td><input type="text" name="email" id="mail" /></td></tr>
+	<tr><th>密码：</th><td><input type="password" name="password" id="pw1" /></td></tr>
+	<tr><th>确认密码：</th><td><input type="password" id="pw2" /></td></tr>
+	<tr><td colspan="2" class="td-btn">
+	<input type="submit" value="提交注册" class="button"/>
+	<input type="reset" value="重新填写" class="button"/>
+	</td></tr>
+	</table>
+	</form>
+</body>
+</html>
